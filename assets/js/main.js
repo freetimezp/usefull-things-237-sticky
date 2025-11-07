@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
             gsap.set(card, {
                 x: x,
                 y: -y + radius,
-                rotation: -rotation,
+                rotation: rotation,
                 transformOrigin: "center center",
             });
         });

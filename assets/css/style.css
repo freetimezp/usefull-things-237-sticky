@@ -116,7 +116,6 @@ section {
     border-radius: 0.5em;
     overflow: hidden;
 }
-
 .card-img img {
     width: 100%;
     height: 100%;
@@ -156,7 +155,7 @@ section {
     top: -10px;
 }
 
-.count-countainer {
+.count-container {
     position: relative;
     transform: translateY(150px);
     will-change: transform;
@@ -176,25 +175,4 @@ section {
 
 .empty {
     opacity: 0;
-}
-
-@media (max-width: 900px) {
-    .counter-title {
-        height: 30px;
-    }
-    .counter-title h1 {
-        font-size: 30px;
-    }
-    .count {
-        top: 0;
-        left: -10px;
-    }
-
-    .cards {
-        top: 27.5%;
-    }
-    .card {
-        width: 375px;
-        height: 500px;
-    }
 }
